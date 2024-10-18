@@ -1,0 +1,87 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografía de Tomy</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            cursor: url('https://r2.guns.lol/bfd8f365-e111-45cd-844f-e47c3b880337.cur'), auto; /* Cursor personalizado */
+            background-color: #000; /* Fondo negro */
+        }
+
+        header, main, footer {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            margin: 10px 0;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        .social ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .social li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .social a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .social img {
+            width: 24px; /* Ajusta el tamaño del ícono */
+            height: 24px; /* Ajusta el tamaño del ícono */
+            margin-right: 5px; /* Espacio entre el ícono y el texto */
+        }
+
+        .social a:hover {
+            color: #ff0000; /* Cambia a otro color al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Hola, soy Tomy</h1>
+        <p>Bienvenido a mi biografía</p>
+    </header>
+    <main>
+        <section class="about">
+            <h2>Sobre mí</h2>
+            <p>Soy Tomy, me dedico a programar, y me gustaría conocer gente. Si quieres, puedo ayudarte a hacer tu bio. Mi Discord: lautaro_ruik</p>
+            <p>Mi pasión es programar, Escuchar Musica y Aprender Mas Cosas Sé hablar un poco de inglés.</p>
+        </section>
+
+        <section class="social">
+            <h2>Conéctate conmigo</h2>
+            <ul>
+                <li><a href="https://instagram.com/[tuusuario]" target="_blank"><img src="https://r2.guns.lol/0533c43b-ce36-434b-a472-ca3969aa4e54.png" alt="Instagram">Instagram</a></li>
+                <li><a href="https://discord.com/users/1193500711552548914" target="_blank"><img src="https://r2.guns.lol/d027c896-8a7a-4009-8cd6-0aec6a05e11d.webp" alt="Discord">Discord</a></li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Bienvenido A Mi Biografia<p>
+    </footer>
+</body>
+</html>
